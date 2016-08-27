@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250" align="right">
 
 JS-Basics
@@ -23,3 +24,6 @@ If you see a problem or a typo, please fork, make the necessary changes, and cre
 © DevMountain LLC, 2015. Unauthorized use and/or duplication of this material without express and written permission from DevMountain, LLC is strictly prohibited. Excerpts and links may be used, provided that full and clear credit is given to DevMountain with appropriate and specific direction to the original content.
 
 <img src="https://devmounta.in/img/logowhiteblue.png" width="250">
+=======
+# JS-Basics
+>>>>>>> 6cd9b9013836b41eca98da10e8f50b3b99e52ac0
