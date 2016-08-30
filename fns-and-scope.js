@@ -13,6 +13,8 @@ var name = 'Tyler';
     return false;
   }
 
+//G: Nailed it.
+
 //////////////////PROBLEM 2////////////////////
 
 
@@ -22,6 +24,7 @@ var name = 'Tyler';
 function getName() {
   return prompt('What is your name?');
   }
+//G: Perfecto;
 
 //////////////////PROBLEM 3////////////////////
 
@@ -36,6 +39,8 @@ function welcome() {
   var name = getName();
   alert('Welcome, ' + name);
 }
+//G: Perfecto;
+
 //////////////////PROBLEM 4////////////////////
 
 
@@ -46,8 +51,11 @@ function welcome() {
   //Answer Here
 /*
 Parameters are what the function intakes when you define/declare a function.
-Arguments are what you're assing through when you call the function.
+Arguments are what you're passing through when you call the function.
 */
+
+//G: Close. A parameter is the variable which is part of the function’s signature (function declaration).
+//G: Your explaination for arguments is spot on.
 
 //////////////////PROBLEM 5////////////////////
 
@@ -66,6 +74,8 @@ false
 NAN
 */
 
+//G: Perfect.
+
 
 //////////////////PROBLEM 6////////////////////
 
@@ -78,6 +88,7 @@ NAN
 function myName() {
   return "Brock";
 }
+//G: Perfect.
 
 //Now save the function definition of myName into a new variable called newMyName
 
@@ -86,6 +97,7 @@ var newMyName = myName;
 //Now alert the result of invoking newMyName
 alert(newMyName());
 
+//G: Perfect.
 
 //////////////////PROBLEM 7////////////////////
 
@@ -95,6 +107,10 @@ alert(newMyName());
 function outerFn() {
   return myName;
 }
+
+//G: This totally works, though it's not technically an anonymous function since you are actually returning a named/declared function.
+//G: As loong as you understand that you can return an unnamed (anonymous) function here then you're all good.
+
   //Code Here
 
 //Now save the result of invoking outerFn into a variable called innerFn.
@@ -103,3 +119,5 @@ var innerFn = outerFn();
 
 //Now invoke innerFn.
 innerFn();
+
+//AWWW YEAAAAAA. Nice work. :)
